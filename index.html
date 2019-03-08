@@ -7,21 +7,158 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Lighter color palette -->
+<!-- Lighter color palette [Periwinkle] -->
+<div id="container">
+<!-- --------------------------------------------------------------------- -->
+<!-- Background -->
+<!-- --------------------------------------------------------------------- -->
+<!-- <picture>
+    <source srcset="img/home-small.jpeg" media="(max-width: 350px)">
+    <source srcset="img/home-medium.jpeg" media="(max-width: 700px)">
+    <img src="img/home.jpeg" alt="a freshly cleaned room dressed with fresh tulips next to an open window that lets in warm sunlight">
+</picture> -->
 
-<!-- Header: Best in Utah | Logo | Contact [Phone] -->
-<!-- Navigation: Services | About | Contact -->
-     Sticky navigation - always present for quick navigation
-<!-- CTA - Quote form: [Commercial] Square foot slider [Residential] Room
-     slider | Upholstery/Carpet/Tile & Grout buttons | Total Price | Book Me
-     button -->
+<!-- --------------------------------------------------------------------- -->
+<!-- Header -->
+<!-- --------------------------------------------------------------------- -->
+<header>
+  <h3> Best in Utah </h3>
+  <img src="img/logo.png" alt="logo">
+  <h3> (801)-666-6666 </h3>
+</header>
+<!-- --------------------------------------------------------------------- -->
+<!-- Navigation -->
+<!-- --------------------------------------------------------------------- -->
+<!-- Sticky navigation - always present for quick navigation -->
+<div class="spacer"> some content </div>
+<nav>
+  <ul>
+    <li> <a href="#services"> Services </a></li>
+    <li> <a href="#about"> About </a></li>
+    <li> <a href="#contact"> Contact </a></li>
+  </ul>
+</nav>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- Quote form -->
+<!-- --------------------------------------------------------------------- -->
+<div id="quote-container">
+  <p id="quote-form-header"> Quote me! </p>
+  <a href="#quote-form-footer" id="quote-form-footer"> Book me! </a>
+</div>
+
+<form id="quote-form" class="residential">
+<!-- clean type -->
+  <div class="flex-container">
+    <button class="residential-button" type="button"> Residential <span> for homes </span> </button>
+    <button class="commercial-button" type="button"> Commercial <span> for businesses </button>
+  </div>
+<!-- checkboxes -->
+  <div class="flex-container">
+    <label for="carpet">
+      <input class="quote-check "type="checkbox" name="carpet" value="Carpet" checked> Carpet cleaning </input>
+    </label>
+    <label for="upholstery">
+      <input class="quote-check "type="checkbox" name="upholstery" value="Upholstery"> Upholstery </label>
+    <label for="tile">
+      <input class="quote-check "type="checkbox" name="tile" value="Tile"> Tile / Grout / Resealing </label>
+  </div>
+<!-- sliders -->
+  <div class="flex-container">
+    <div class="residential-slider">
+      <p> How many rooms? </p>
+        <input class="quote-slider" type="range" min="0" max="3" value="1">
+          <p class="slider-output"> 1 </p>
+    </div>
+    <div class="commercial-slider">
+    <p> How many square feet? </p>
+        <input class="quote-slider commercial-slider" type="range" min="0" max="3">
+          <p class="slider-output"> 2 </p>
+    </div>
+  </div>
+  <p> Total: </p>
+  <p id="quote-total"></p>
+</form>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- CTA (Call to action) -->
+<!-- --------------------------------------------------------------------- -->
+
+<div id="cta">
+  <div class="social">
+    <a href="https://bit.ly/2TAaWYY"><img src="img/facebook.png" alt="facebook"><br> Facebook </a>
+    <a href="m.me/1954317821515246"><img src="img/messenger.png" alt="facebook messenger"><br> Messenger </a>
+    <a href="tel: 1-801-641-6215"><img src="img/phone.png" alt="phone"><br> Call or Text </a>
+  </div>
+
+  <p> Includes: <span class="cta-services">Service(s)</span> for <span class="cta-value">X</span> <span class="cta-toggle">room(s)</span>
+  : $ <span class="cta-total">total</span> </p>
+</div>
+
+<!-- --------------------------------------------------------------------- -->
 <!-- Reviews slideshow -->
+<!-- --------------------------------------------------------------------- -->
+
+<p class="control_next"> > </p>
+<p class="control_prev"> < </p>
+
+<div id="reviewSlider">
+  <ul>
+    <li>SLIDE 1</li>
+    <li>SLIDE 2</li>
+    <li>SLIDE 3</li>
+    <li>SLIDE 4</li>
+  </ul>
+</div>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- About / Where: Background | Map -->
+<!-- --------------------------------------------------------------------- -->
+
+
+
 <!-- Social media -->
 <!-- CTA -->
 <!-- Services: Photos | Descriptions -->
 <!-- CTA -->
-<!-- About / Where: Background | Map -->
 <!-- Contact info: Phone number | Business hours | Inquiry options -->
 <!-- Footer: Quick links | Additional information -->
+
+<p>We'll put a happy little bush here. I spend a lot of time walking around in the woods and talking to trees, and squirrels, and little rabbits and stuff. It's almost like something out of a fairytale book. The more we do this - the more it will do good things to our heart.</p>
+
+<p>What the devil. Volunteering your time; it pays you and your whole community fantastic dividends. Follow the lay of the land. It's most important.</p>
+
+<p>It's amazing what you can do with a little love in your heart. As trees get older they lose their chlorophyll. You can create the world you want to see and be a part of. You have that power.</p>
+
+<p>Only think about one thing at a time. Don't get greedy. Let the paint work. Nothing's gonna make your husband or wife madder than coming home and having a snow-covered dinner. Work that paint. You better get your coat out, this is going to be a cold painting.</p>
+
+<p>With practice comes confidence. We wash our brush with odorless thinner. Anything you want to do you can do here. We'll do another happy little painting. The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough, you can do. Anything. As long as you believe. Use absolutely no pressure. Just like an angel's wing.</p>
+
+<p>Think about a cloud. Just float around and be there. Don't kill all your dark areas - you need them to show the light. There's nothing wrong with having a tree as a friend.</p>
+
+<p>You can't make a mistake. Anything that happens you can learn to use - and make something beautiful out of it. Let's put some happy trees and bushes back in here. I thought today we would make a happy little stream that's just running through the woods here. Just go out and talk to a tree. Make friends with it.</p>
+
+<p>We'll put a happy little bush here. I spend a lot of time walking around in the woods and talking to trees, and squirrels, and little rabbits and stuff. It's almost like something out of a fairytale book. The more we do this - the more it will do good things to our heart.</p>
+
+<p>What the devil. Volunteering your time; it pays you and your whole community fantastic dividends. Follow the lay of the land. It's most important.</p>
+
+<p>It's amazing what you can do with a little love in your heart. As trees get older they lose their chlorophyll. You can create the world you want to see and be a part of. You have that power.</p>
+
+<p>Only think about one thing at a time. Don't get greedy. Let the paint work. Nothing's gonna make your husband or wife madder than coming home and having a snow-covered dinner. Work that paint. You better get your coat out, this is going to be a cold painting.</p>
+
+<p>With practice comes confidence. We wash our brush with odorless thinner. Anything you want to do you can do here. We'll do another happy little painting. The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough, you can do. Anything. As long as you believe. Use absolutely no pressure. Just like an angel's wing.</p>
+
+<p>Think about a cloud. Just float around and be there. Don't kill all your dark areas - you need them to show the light. There's nothing wrong with having a tree as a friend.</p>
+
+<p>You can't make a mistake. Anything that happens you can learn to use - and make something beautiful out of it. Let's put some happy trees and bushes back in here. I thought today we would make a happy little stream that's just running through the woods here. Just go out and talk to a tree. Make friends with it.</p>
+
+</div> <!-- /container -->
+
+<!-- scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+
+
 </body>
 </html>
